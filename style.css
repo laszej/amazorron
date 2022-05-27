@@ -71,11 +71,11 @@ header{
     font-family: 'Ubuntu', sans-serif;
     font-size:14px;
     height:40px;
-    width:500px;
+    width:200px;
     background-color: white;
     color:black;
     outline: none;
-    border: none;
+    border: 1px solid black;
     padding:15px;
     
 }
