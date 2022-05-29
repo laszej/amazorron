@@ -83,7 +83,7 @@ productsArray.push(imageDiv)
 const searchForAnItem = ()=>{
 productsArray.forEach((item)=>{  
 productDiv.classList.add("productDivNone")    
-let value = searchInput.value
+let value = searchInput.value.toLowerCase()
 if(value==="")return
 const isVisible = productDiv.id.toLowerCase().includes(value) || 
 productDiv.category.toLowerCase().includes(value)
