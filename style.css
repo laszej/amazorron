@@ -19,7 +19,7 @@
 
      #container{margin-top: 100px;}
         
-     .productDiv{max-width:100vmin; display: flex; align-items: flex-start }
+     .productDiv{max-width:100vmin; }
 
      .productDescription{max-width: 20vmin; align-items: flex-start}
 
