@@ -21,9 +21,9 @@
         
      .productDiv{max-width:100vmin; }
 
-     .productDescription{max-width: 50vmin;}
+     .productDescription{max-width: 20vmin;}
 
-     .imageDiv{max-width:30vmin;}
+     .imageDiv{max-width:10vmin;}
 
      #bag{position: relative, top: 200px; max-width: 50vmin;}
     
@@ -145,6 +145,7 @@ width: 20px;
 
 
 #container{
+position: relative;
 display: flex;
 flex-wrap: wrap;
 flex-direction:column;
@@ -156,6 +157,7 @@ margin-top: 10px;
 
 
 .productDiv{
+position:relative;
 display: flex;
 width: 700px;
 height: 220px;
