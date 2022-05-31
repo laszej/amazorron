@@ -21,9 +21,9 @@
         
      .productDiv{max-width:100vmin; }
 
-     .productDescription{max-width:100px;}
+     .productDescription{max-width: 50vmin;}
 
-     .imageDiv{max-width:100px;}
+     .imageDiv{max-width:30vmin;}
 
      #bag{position: relative, top: 200px; max-width: 200px;}
     
