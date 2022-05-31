@@ -17,7 +17,7 @@
      .navLeft{order:1; max-width:100vmin} .navCenter{order:3; max-width:100vmin;}
      .navRight{order:2;  max-width:100vmin}
 
-     #container{margin-top: 100px;}
+     #container{position: relative, top: 200px;}
         
      .productDiv{max-width:100vmin; }
 
@@ -25,7 +25,7 @@
 
      .imageDiv{max-width:100px;}
 
-     #bag{max-width: 300px; margin-top: 100px;}
+     #bag{position: relative, top: 200px; max-width: 200px;}
     
       }
 
