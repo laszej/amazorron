@@ -21,7 +21,7 @@
         
      .productDiv{max-width:100vmin; }
 
-     .productDescription{max-width: 20vmin;}
+     .productDescription{max-width: 20vmin; align-items: flex-start}
 
      .imageDiv{max-width:10vmin;}
 
