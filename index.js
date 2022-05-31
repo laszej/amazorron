@@ -82,16 +82,19 @@ productInformation.classList.add("productDescription")
 const name = document.createElement("p")
 name.innerHTML = `<b>${data[index].name}</b>`
 name.id = data[index].name
+name.style.wordWrap = "break-word";
+ 
 
 const price = document.createElement("p")
 price.innerHTML = `<b>${data[index].price}</b> zł  `
 price.id = data[index].price
+price.style.wordWrap= "break-word";
 
 let addButton = document.createElement("div")
 addButton.id = "addButton"
 addButton.style.position = "absolute"
-addButton.style.right = "10px"
-addButton.style.bottom = "80px"
+addButton.style.right = "10%"
+addButton.style.bottom = "80%"
 const buttonText = document.createElement("p")
 buttonText.innerText="dodaj do koszyka"
 buttonText.classList.add("addButton")
