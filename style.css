@@ -21,9 +21,9 @@
         
      .productDiv{max-width:100vmin; }
 
-     .productDescription{max-width: 20vmin; align-items: flex-start}
+     .productDescription{max-width: 60vmin; }
 
-     .imageDiv{max-width:10vmin;}
+     .imageDiv{max-width: 30vmin;}
 
      #bagOpen{position: absolute; top:100px; max-width: 100vmin; max-height:100vmin}
     
