@@ -22,6 +22,7 @@
      .productDiv{max-width:100vmin; }
 
      .productDescription{max-width: 60vmin; }
+    .productDescription > p {font-size: "12px;}
 
      .imageDiv{max-width: 30vmin;}
 
