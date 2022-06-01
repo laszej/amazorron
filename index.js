@@ -25,7 +25,7 @@ const quantity = document.getElementById("quantity")
 quantity.innerHTML = productsQuantity
 
   function updateCounter(){
-    bagCounter.innerHTML = `W koszyku znajdusie się ${productsQuantity} przedmiotów`
+    bagCounter.innerHTML = `W koszyku znajduje się ${productsQuantity} przedmiotów`
     }
     
 const showAll =  document.getElementById("showAll")
