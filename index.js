@@ -93,8 +93,8 @@ price.style.wordWrap= "break-word";
 let addButton = document.createElement("div")
 addButton.id = "addButton"
 addButton.style.position = "absolute"
-addButton.style.right = "10%"
-addButton.style.bottom = "80%"
+addButton.style.right = "10px"
+addButton.style.bottom = "80px"
 const buttonText = document.createElement("p")
 buttonText.innerText="dodaj do koszyka"
 buttonText.classList.add("addButton")
