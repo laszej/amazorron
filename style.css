@@ -195,6 +195,7 @@ align-items: space-between;
 position:relative;
 box-sizing: border-box;
 display:flex;
+word-wrap :break-word;    
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
@@ -216,7 +217,7 @@ margin-left:auto;
 #bagOpen{
 overflow: scroll;   
 margin-left: auto;
-margin-top:10px;
+margin-top:100px;
 display:flex;
 flex-direction:column;
 align-items:center;
